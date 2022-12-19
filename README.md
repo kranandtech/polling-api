@@ -23,7 +23,7 @@ You need to create an API where anyone can create questions with options and als
 - Railway
 - Git
 # Live project Link
-https://placement-app-production.up.railway.app/
+https://polling-api-production-0be6.up.railway.app
 
 # Steps to set project locally[Windows]
 - Go to terminal. Run below command:
@@ -34,10 +34,10 @@ https://placement-app-production.up.railway.app/
  # Your project is set up .
  # You can use Postman to check all routes
  # API Routes 
--	/questions/create  (To create a question)
--	/questions/:id/options/create  (To add options to a specific question)
--	/questions/:id/delete (To delete a question)
--	/options/:id/delete (To delete an option)
--	/options/:id/add_vote (To increment the count of votes)
--	/questions/:id (To view a question and it’s options)
+-	localhost:8000/api/v1/questions/create  (To create a question)
+-	localhost:8000/api/v1/questions/question_id/options/create (To add options to a specific question)
+-	localhost:8000/api/v1/questions/question_id/delete (To delete a question)
+-	localhost:8000/api/v1/options/option_id/delete (To delete an option)
+-	localhost:8000/api/v1/options/option_id/add_vote (To increment the count of votes)
+-	localhost:8000/api/v1/questions/question_id (To view a question and it’s options)
 
