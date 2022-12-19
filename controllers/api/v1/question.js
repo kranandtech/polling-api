@@ -70,7 +70,7 @@ module.exports.listQuestion = async function (req, res) {
 // List all data
 module.exports.listAll = async function (req, res) {
   try {
-    const pollingData = await Question.findById().populate({
+    const pollingData = await Question.find({}).populate({
       path: 'options',
       model: Option,
     });
