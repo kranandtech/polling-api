@@ -1,11 +1,12 @@
 const express = require('express');
 const app = express();
-const port = 8000;
+const env = require('./config/environment');
+const port = env.port;
 
 const db = require('./config/mongoose');
-// set form encoded
-app.use(express.urlencoded({ extended: true }));
+
 // Use express route
+app.use(express.json());
 app.use('/', require('./routes'));
 // Set up view engine
 app.listen(port, function (err) {
