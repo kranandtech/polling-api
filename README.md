@@ -9,6 +9,7 @@ You need to create an API where anyone can create questions with options and als
 -	Delete a question 
 -	Delete an option 
 -	View a question with it’s options and all the votes given to it
+-    View all questions along with it's options
 
 # Languages & Tools Used for development
 - Nodejs
@@ -40,4 +41,5 @@ https://polling-api-production-0be6.up.railway.app
 -	localhost:8000/api/v1/options/option_id/delete (To delete an option)
 -	localhost:8000/api/v1/options/option_id/add_vote (To increment the count of votes)
 -	localhost:8000/api/v1/questions/question_id (To view a question and it’s options)
+-	localhost:8000/api/v1 (To view all questions and it’s options)
 
