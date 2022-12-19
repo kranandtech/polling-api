@@ -23,8 +23,8 @@ You need to create an API where anyone can create questions with options and als
 # Tools used for hosting
 - Railway
 - Git
-# Live project Link
-https://polling-api-production-0be6.up.railway.app
+# Live project API Link
+https://polling-api-production-0be6.up.railway.app/api/v1
 
 # Steps to set project locally[Windows]
 - Go to terminal. Run below command:
