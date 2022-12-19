@@ -27,8 +27,8 @@ https://placement-app-production.up.railway.app/
 
 # Steps to set project locally[Windows]
 - Go to terminal. Run below command:
-     git clone https://github.com/anandkumarmca6/placement-app.git
--  cd placement-app
+     git clone https://github.com/anandkumarmca6/polling-api.git
+-  cd polling-api
 - npm install
 - npm start
  # Your project is set up .
