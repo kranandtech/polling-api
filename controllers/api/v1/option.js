@@ -10,7 +10,7 @@ module.exports.deleteOption = async function (req, res) {
       question.save();
       option.remove();
 
-      return res.status(200).json('del');
+      return res.status(200).json('Option deleted');
     }
   } catch (err) {
     return res.status(404).json({});

@@ -48,7 +48,7 @@ module.exports.deleteQuestion = async function (req, res) {
     if (question) {
       question.remove();
       await Option.deleteMany({ question: req.params.id });
-      return res.status(200).json('del');
+      return res.status(200).json('Question deleted along with options');
     }
   } catch (err) {
     return res.status(404).json({});
