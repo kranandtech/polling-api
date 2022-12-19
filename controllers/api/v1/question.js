@@ -66,3 +66,16 @@ module.exports.listQuestion = async function (req, res) {
     return res.status(404).json({});
   }
 };
+
+// List a question along with options
+module.exports.listAll = async function (req, res) {
+  try {
+    const pollingData = await Question.findById().populate({
+      path: 'options',
+      model: Option,
+    });
+    return res.status(200).json({ pollingData });
+  } catch (err) {
+    return res.status(404).json({});
+  }
+};
