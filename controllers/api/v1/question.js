@@ -67,7 +67,7 @@ module.exports.listQuestion = async function (req, res) {
   }
 };
 
-// List a question along with options
+// List all data
 module.exports.listAll = async function (req, res) {
   try {
     const pollingData = await Question.findById().populate({
