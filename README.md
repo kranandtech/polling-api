@@ -18,13 +18,13 @@ You need to create an API where anyone can create questions with options and als
 - MongoDB
 - Javascript
 - Git
-- MongoDB Compass
+- MongoDB Atlas
 - Visual Studio Code
 # Tools used for hosting
-- Railway
+- Cyclic
 - Git
 # Live project API Link
-https://polling-api-production-0be6.up.railway.app/api/v1
+https://polling-api.cyclic.app/app/v1
 
 # Steps to set project locally[Windows]
 - Go to terminal. Run below command:
