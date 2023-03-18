@@ -24,7 +24,7 @@ You need to create an API where anyone can create questions with options and als
 - Cyclic
 - Git
 # Live project API Link
-https://polling-api.cyclic.app/app/v1
+https://polling-api.cyclic.app/api/v1
 
 # Steps to set project locally[Windows]
 - Go to terminal. Run below command:
